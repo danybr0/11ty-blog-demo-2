@@ -8,6 +8,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('./src/style.css');
     eleventyConfig.addPassthroughCopy('./src/assets');
+    eleventyConfig.addPassthroughCopy('./src/admin');
 
     // fixing date formatting
     // source: https://11ty.rocks/eleventyjs/dates/
